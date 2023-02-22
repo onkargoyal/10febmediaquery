@@ -1,0 +1,217 @@
+.whole {
+  height: 600px;
+}
+.upper-container {
+  display: flex;
+  height: 40%;
+  justify-content: center;
+  gap: 10px;
+}
+.text {
+  height: 20%;
+  align-self: center;
+}
+.hand-image {
+  height: 30%;
+}
+.everyone {
+  display: inline-block;
+  height: 10%;
+  color: white;
+}
+.anderson {
+  color: white;
+}
+.developer {
+  color: yellow;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.projects {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 50%;
+  justify-content: center;
+}
+
+.img1,
+.img3 {
+  height: 100%;
+  width: 25%;
+
+  justify-self: right;
+}
+
+.img2,
+.img4 {
+  height: 100%;
+  width: 25%;
+
+  justify-self: left;
+}
+
+.contactme {
+  text-align: center;
+  color: white;
+  margin: 5px;
+}
+
+.emoticons {
+  display: flex;
+  height: 4%;
+  justify-content: center;
+}
+
+a {
+  height: 100%;
+}
+
+.gitimage,
+.linkedinimage,
+.outlookimage {
+  height: 100%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: right;
+  gap: 10px;
+  align-items: center;
+}
+
+.homebutton {
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  border-radius: 12px;
+}
+* {
+  background-color: rgb(27, 2, 50);
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* 
+huuuuuuu */
+
+@media screen and (max-width: 768px) {
+  .whole {
+    height: 1600px;
+  }
+  .upper-container {
+    display: flex;
+    height: 30%;
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+  }
+  .text {
+    text-align: center;
+  }
+  .hand-image {
+    height: 10%;
+    width: 10%;
+  }
+  .pc-image {
+    width: 50%;
+  }
+  .everyone {
+    height: 10%;
+    color: white;
+  }
+  .anderson {
+    color: white;
+  }
+  .developer {
+    color: yellow;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .projects {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .img1,
+  .img3 {
+    height: 100%;
+    width: 50%;
+    justify-self: center;
+  }
+
+  .img2,
+  .img4 {
+    height: 100%;
+    width: 50%;
+    justify-self: center;
+  }
+
+  .contactme {
+    text-align: center;
+    color: white;
+    margin: 5px;
+  }
+
+  .emoticons {
+    display: flex;
+    height: 1%;
+
+    justify-content: center;
+
+    width: 100%;
+  }
+
+  a {
+    height: 100%;
+  }
+
+  .gitimage,
+  .linkedinimage,
+  .outlookimage {
+    height: 100%;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .homebutton {
+    padding: 5px;
+    color: white;
+    background-color: blue;
+    border-radius: 12px;
+  }
+  * {
+    background-color: rgb(27, 2, 50);
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+}
